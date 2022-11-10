@@ -33,3 +33,10 @@ const user:User={
 }
 
 //composing types ->union
+type WindowState ="open"|"closed"|"middle";
+
+type primeUnder10 =1|2|3;
+
+const getLength=(param:string|string[])=>{
+    return param.length;    
+}
