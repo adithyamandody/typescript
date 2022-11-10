@@ -20,3 +20,16 @@ enum continents {
 } ;
 
 var region= continents.Africa; //2
+
+//interfaces
+interface User{
+    name:string;
+    id:number;
+};
+
+const user:User={
+    name:'aditya',
+    id:0,
+}
+
+//composing types ->union
